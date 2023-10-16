@@ -1,0 +1,28 @@
+
+package codingan.pkg100.pkg08day;
+
+public class Codingan10008day {
+
+   
+    public static void main(String[] args) {
+       
+        boolean kondisi1 = true;
+        boolean kondisi2 = false;
+
+        // Operator logika AND (&&)
+        boolean hasilAnd = kondisi1 && kondisi2;
+        System.out.println("kondisi1 && kondisi2: " + hasilAnd);
+
+        // Operator logika OR (||)
+        boolean hasilOr = kondisi1 || kondisi2;
+        System.out.println("kondisi1 || kondisi2: " + hasilOr);
+
+        // Operator logika NOT (!)
+        boolean hasilNot1 = !kondisi1;
+        boolean hasilNot2 = !kondisi2;
+        System.out.println("!kondisi1: " + hasilNot1);
+        System.out.println("!kondisi2: " + hasilNot2);
+    }
+}
+        
+
